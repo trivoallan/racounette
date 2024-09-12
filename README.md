@@ -2,9 +2,19 @@
 
 Ce template de dépôt permet de générer des projets PHP basés sur le microframework <https://www.slimframework.com>.
 
-## Recettes
+## Guide d'utilisation
 
-### Démarrer le serveur de développement
+### Installation
+
+#### Installer les dépendances
+
+```shell
+composer install
+```
+
+### Développement
+
+#### Démarrer le serveur web de développement
 
 ```shell
 cd public/
