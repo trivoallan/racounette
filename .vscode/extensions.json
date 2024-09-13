@@ -1,5 +1,8 @@
 {
     "recommendations": [
-        "ms-vscode-remote.remote-containers"
+        "ms-vscode-remote.remote-containers",
+        "devsense.phptools-vscode",
+        "mblode.twig-language-2",
+        "github.codespaces"
     ]
 }

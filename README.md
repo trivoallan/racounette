@@ -11,14 +11,13 @@ Ce template de dépôt permet de générer des projets PHP basés sur le microfr
 ##### Installer les dépendances
 
 ```shell
-composer install
+make install
 ```
 
 ##### Démarrer le serveur web de développement
 
 ```shell
-cd public/
-php -S 0.0.0.0:8888
+make serve
 ```
 
-Pour y accéder : <http://localhost:8888>
+Pour y accéder : <http://0.0.0.0:8080>
