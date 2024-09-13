@@ -39,6 +39,7 @@ actions:
     - trufflehog-pre-commit
     - trunk-upgrade-available
 tools:
+  disabled:
+    - php-cs-fixer
+    - phpstan
   enabled:
-    - phpstan@1.10.58
-    - php-cs-fixer@3.54.0
