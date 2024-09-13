@@ -10,9 +10,9 @@ Ce template de dépôt permet de générer des projets PHP basés sur le microfr
 
 - Installer les dépendances :
 
-```shell
-make install
-```
+    ```shell
+    make install
+    ```
 
 - Démarrer le serveur web de développement :
 
