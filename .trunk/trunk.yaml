@@ -29,13 +29,13 @@ lint:
 actions:
   disabled:
     - trunk-announce
-    - trunk-check-pre-push
   enabled:
-    - commitlint
     - commitizen
+    - commitlint
     - yarn-check
     - trunk-fmt-pre-commit
     - trunk-check-pre-commit
+    - trunk-check-pre-push
     - trufflehog-pre-commit
     - trunk-upgrade-available
 tools:
