@@ -19,6 +19,7 @@ runtimes:
 # This is the section where you manage your linters. (https://docs.trunk.io/check/configuration)
 lint:
   enabled:
+    - actionlint@1.6.9
     - trivy@0.44.1
     - djlint@1.35.2
     - php-cs-fixer@3.54.0
