@@ -1,0 +1,10 @@
+version: 1.0
+provider:
+  name: openfaas
+  gateway: https://fesse.pastis-hosting.net
+functions:
+  echo:
+    lang: php8
+    handler: ./echo
+    image: constructionsincongrues/racounette-echo:latest
+

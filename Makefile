@@ -1,5 +1,5 @@
 install:
-	composer install
+	cd src/app && composer install
 
 serve:
-	php -t ./public -S 0.0.0.0:8080
+	php -t ./src/app/public -S 0.0.0.0:8080
