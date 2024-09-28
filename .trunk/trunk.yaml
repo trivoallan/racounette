@@ -3,6 +3,8 @@
 version: 0.1
 cli:
   version: 1.22.5
+  shell_hooks:
+    enforce: true
 # Trunk provides extensibility via plugins. (https://docs.trunk.io/plugins)
 plugins:
   sources:
@@ -17,6 +19,9 @@ runtimes:
 # This is the section where you manage your linters. (https://docs.trunk.io/check/configuration)
 lint:
   enabled:
+    - trivy@0.44.1
+    - djlint@1.35.2
+    - php-cs-fixer@3.54.0
     - trufflehog-git@3.59.0
     - checkov@3.2.253
     - git-diff-check
@@ -41,5 +46,4 @@ actions:
 tools:
   disabled:
     - php-cs-fixer
-    - phpstan
   enabled:
