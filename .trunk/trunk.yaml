@@ -18,6 +18,13 @@ runtimes:
     - python@3.10.8
 # This is the section where you manage your linters. (https://docs.trunk.io/check/configuration)
 lint:
+  files:
+    - name: twig
+      extensions:
+        - twig
+  definitions:
+    - name: djlint
+      files: [twig]
   enabled:
     - actionlint@1.6.9
     - trivy@0.44.1
