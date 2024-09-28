@@ -7,4 +7,3 @@ functions:
     lang: php8
     handler: ./echo
     image: constructionsincongrues/racounette-echo:latest
-
